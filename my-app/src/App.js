@@ -55,10 +55,10 @@ function App() {
       id="assignment"
       className="bg-gradient-to-br from-indigo-900 to-gray-200 mt-20 mx-1 rounded-sm "
     >
-      <h4 className="text-white text-4xl pt-3 ml-40 font-semibold">
+      <h4 className="text-white text-4xl pt-3 ml-24 font-semibold">
         OUR SERVICES
       </h4>
-      <div className="flex  gap-5 pb-8 mt-8 mx-40">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 pb-8 mt-8 mx-24 ">
         {data.map((dataItem, index) => (
           <div key={dataItem.title} className=" w-64   mt-3   relative">
             <FontAwesomeIcon
